@@ -43,3 +43,22 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'bundler'
+
+gem 'better_errors', group: :development
+
+gem 'binding_of_caller'
+
+gem 'google-analytics-rails'
+
+gem 'pry-rails', group: :development
+
+gem 'dotenv-rails', group: [:development, :test]
+
+gem 'devise', github: 'plataformatec/devise'
+
+gem 'omniauth'
+
+gem 'omniauth-facebook'
+
+gem 'validates_formatting_of'
